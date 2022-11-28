@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding:0;
+   
+
+}
+
+.referenser-main {
+
+    font-family: 'Work Sans', sans-serif;
+
+    h1{
+        text-align: center;
+        color: green;
+        padding-top:30px;
+
+    }
+    .rubrik-text{
+        text-align: center;
+    }
+
+    .reviews{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+
+        .reviews-box-container{
+            display: flex;
+            width: 500px;
+            background-color: rgb(232, 231, 231);
+            margin: 70px 15px 20px 30px;
+            border:1px solid black;
+            padding: 20px;
+
+            .gäst-mail{
+                font-size: .7rem;
+            }
+
+            img{
+                height: 50px;
+                width: 90px;
+            }
+
+            p.review-text{
+                margin-top: 5px;
+                
+            }
+
+            .star-rating1 {
+
+              position: relative;
+              
+                .checked{
+                    color: orange;
+                   }
+            }
+            .star-rating2 {
+
+              position: relative;
+              left: 70px;
+              
+                .checked{
+                    color: orange;
+                   }
+            }
+            .star-rating3 {
+
+              position: relative;
+              left: 95px;
+              
+                .checked{
+                    color: orange;
+                   }
+            }
+            .star-rating4 {
+
+              position: relative;
+              left: 90px;
+              
+                .checked{
+                    color: orange;
+                   }
+            }
+            .star-rating5 {
+
+              position: relative;
+              left: 80px;
+              
+                .checked{
+                    color: orange;
+                   }
+            }
+            .star-rating6 {
+
+              position: relative;
+              left: 140px;
+              
+                .checked{
+                    color: orange;
+                   }
+            }
+        }
+
+    }
+
+    
+}

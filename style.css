@@ -1,0 +1,82 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.referenser-main {
+  font-family: "Work Sans", sans-serif;
+}
+.referenser-main h1 {
+  text-align: center;
+  color: green;
+  padding-top: 30px;
+}
+.referenser-main .rubrik-text {
+  text-align: center;
+}
+.referenser-main .reviews {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.referenser-main .reviews .reviews-box-container {
+  display: flex;
+  width: 500px;
+  background-color: rgb(232, 231, 231);
+  margin: 70px 15px 20px 30px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.referenser-main .reviews .reviews-box-container .gäst-mail {
+  font-size: 0.7rem;
+}
+.referenser-main .reviews .reviews-box-container img {
+  height: 50px;
+  width: 90px;
+}
+.referenser-main .reviews .reviews-box-container p.review-text {
+  margin-top: 5px;
+}
+.referenser-main .reviews .reviews-box-container .star-rating1 {
+  position: relative;
+}
+.referenser-main .reviews .reviews-box-container .star-rating1 .checked {
+  color: orange;
+}
+.referenser-main .reviews .reviews-box-container .star-rating2 {
+  position: relative;
+  left: 70px;
+}
+.referenser-main .reviews .reviews-box-container .star-rating2 .checked {
+  color: orange;
+}
+.referenser-main .reviews .reviews-box-container .star-rating3 {
+  position: relative;
+  left: 95px;
+}
+.referenser-main .reviews .reviews-box-container .star-rating3 .checked {
+  color: orange;
+}
+.referenser-main .reviews .reviews-box-container .star-rating4 {
+  position: relative;
+  left: 90px;
+}
+.referenser-main .reviews .reviews-box-container .star-rating4 .checked {
+  color: orange;
+}
+.referenser-main .reviews .reviews-box-container .star-rating5 {
+  position: relative;
+  left: 80px;
+}
+.referenser-main .reviews .reviews-box-container .star-rating5 .checked {
+  color: orange;
+}
+.referenser-main .reviews .reviews-box-container .star-rating6 {
+  position: relative;
+  left: 140px;
+}
+.referenser-main .reviews .reviews-box-container .star-rating6 .checked {
+  color: orange;
+}/*# sourceMappingURL=style.css.map */
